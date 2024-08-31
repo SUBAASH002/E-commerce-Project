@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+/* f3108d 
+833ab4*/
+.logo img {
+    height: 200px;
+    width: 200px;
+    border: 10px solid #833ab4;
+}
+
+.table {
+    font-size: large;
+    padding: 90px;
+    display: inline-block;
+    background-color: #d7acf4;
+    border-radius: 9px;
+}
+
+.logo img {
+    position: absolute;
+    left: 43.5%;
+}
+
+td {
+    padding: 10px;
+}
+
+td label {
+    color: #f3108d;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid #833ab4;
+}

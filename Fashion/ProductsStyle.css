@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+#sandals {
+    position: absolute;
+    top: 61%;
+    left: 10.5%;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+#shop-button {
+    position: absolute;
+    top: 66%;
+    left: 10%;
+    padding: 10px;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 9px;
+    cursor: pointer;
+    ;
+}
+
+
+.head {
+    margin-top: 44px;
+}
+
+.head img {
+    width: 100%;
+    height: 700px;
+}
+
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px;
+    padding: 35px; */
+    justify-content: flex-start;
+    /* margin: 100px auto; */
+    justify-content: center;
+}
+
+.items img {
+    width: 100%;
+    height: 400px;
+}
+
+.items {
+    background-color: #f3108d;
+    border-radius: 0px 0px 9px 9px;
+    box-shadow: 0px 4px 8px #833ab4;
+    overflow: hidden;
+    transition: transform 0.5s, box-shadow 3s;
+    flex: 1 1 500px;
+    max-width: 400px;
+    margin: 10px;
+}
+
+#sandle1:hover {
+    content: url(/Fashion/images/sandle\ 1\ hover.avif);
+    width: 475px;
+    height: 400px;
+    transition: .5s;
+}
+
+#sandle2:hover {
+    content: url(/Fashion/images/sandle\ 2\ hover.avif);
+    width: 475px;
+    height: 400px;
+    transition: .5s;
+}
+
+#sandle3:hover {
+    content: url(/Fashion/images/sandle\ 3\ hover.avif);
+    width: 475px;
+    height: 400px;
+    transition: .5s;
+}
+
+#sandle4:hover {
+    content: url(/Fashion/images/sandle\ 4\ hover.avif);
+    width: 475px;
+    height: 400px;
+    transition: .5s;
+}
+
+#sandle5:hover {
+    content: url(/Fashion/images/sandle\ 5\ hover.avif);
+    width: 475px;
+    height: 400px;
+    transition: .5s;
+}
+
+#sandle6:hover {
+    content: url(/Fashion/images/sandle\ 6\ hover.avif);
+    width: 475px;
+    height: 400px;
+    transition: .5s;
+}
+
+.detais {
+    top: 0px;
+    background-color: #f3108d;
+    padding: 10px 30px;
+}
+
+.detais h3 {
+    font-size: larger;
+    font-weight: 700;
+    color: #fff;
+}
+
+.detais p {
+    font-size: small;
+    font-weight: 400;
+    color: #fff;
+    /* padding: 3px 0px; */
+}
+
+.detais button {
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+
+.Products h4 {
+    display: inline;
+    /* background-color: #fff; */
+    color: white;
+    margin: 50px 0px;
+
+}
+
+.items button:hover {
+    background-color: #833ab4;
+    color: white;
+    transition: .2s;
+}
+
+.detais {
+    border: none;
+    border-radius: 0px 0px 9px 9px;
+}
